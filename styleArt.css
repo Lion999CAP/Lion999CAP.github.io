@@ -1,0 +1,87 @@
+/* Estilo para el artículo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    color: #4C1F7A;
+}
+
+header {
+    background-color: #4C1F7A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #FF8000;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #FF8000;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Botones de navegación */
+.navigation-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    background-color: #219B9D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #FF8000;
+}
+
+/* Footer */
+footer {
+    background-color: #4C1F7A;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #FF8000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

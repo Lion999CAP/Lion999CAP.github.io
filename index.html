@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog & Portal</title>
+    <title>Blog y Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Blog</h1>
+        <h1>Bienvenido a Mi Blog</h1>
     </header>
     <main>
         <section id="articles">
-            <h2>Articles</h2>
-            <ul>
-                <li><a href="articles/article1.html">Article 1</a></li>
-            </ul>
+            <h2>Artículos</h2>
+            <ul id="article-list"></ul>
         </section>
         <section id="game">
-            <h2>Snake Game</h2>
-            <canvas id="snakeGame" width="300" height="300"></canvas>
+            <h2>Juego de la Serpiente</h2>
+            <div id="game-controls">
+                <button id="startButton">Iniciar Juego</button>
+            </div>
+            <canvas id="snakeGame" width="500" height="300"></canvas>
         </section>
     </main>
     <script src="script.js"></script>
+    <footer>
+        <p>Publicado en GitHub Pages - <a href="https://lion999cap.github.io/" target="_blank">Visita el repositorio</a></p>
+        <p>&copy; 2024 Leandro Lara. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
