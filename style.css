@@ -144,37 +144,3 @@ footer a:hover {
 article footer {
     display: none;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.article-container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.article-title {
-    text-align: center;
-    color: #333;
-}
-
-.article-image {
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.article-content {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-    margin-top: 20px;
-}
