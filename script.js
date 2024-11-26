@@ -136,8 +136,8 @@ window.addEventListener('scroll', function () {
 
         // Lista de artículos con enlaces a las páginas correspondientes
         const articles = [
-            { title: "Artículo 1", link: "articles/article1.html" },
-            { title: "Artículo 2", link: "articles/article2.html" },
+            { title: "Deepfakes: La bomba de tiempo de la desinformación digital", link: "articles/article1.html" },
+            { title: "Transformación digital en los medios: El dilema ético de la IA en el periodismo", link: "articles/article2.html" },
             // Puedes seguir agregando artículos de la misma forma
         ];
 

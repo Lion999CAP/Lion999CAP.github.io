@@ -1,0 +1,88 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    position: relative;
+    color: white;
+    background: #4CAF50;
+    padding: 20px;
+}
+
+#header-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #333;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 10px;
+}
+
+/* Estilo principal */
+main {
+    padding: 20px;
+}
+
+/* Sección de artículos */
+#articles {
+    margin-bottom: 30px;
+}
+
+#articles h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Sección de juego */
+#game h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#game-controls {
+    margin-bottom: 15px;
+}
+
+#snakeGame {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
